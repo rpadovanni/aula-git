@@ -1,0 +1,19 @@
+LOGS:
+git log -p
+	Mostra tudo que foi alterado em cada arquivo do commit.
+	Exibe tudo dos logs.
+
+git log --stat
+	Mostra estatisticas de alterações em cada commit. (2 insertions, 1 deletion).
+	Exibe tudo dos logs.
+
+git log --pretty=oneline
+	Exibe as mensagens de todos os commits em uma linha para cada commit.
+	Exibe tudo dos logs.
+
+git log --pretty=format:"%h - %an, %ar : %s"
+	Exibe informações de quem commitou, quanto tempo atrás e exibe a descrição.
+	Exibe tudo dos logs.
+
+git log --since=2.days
+	Exibe todos os commmits do periodo de tempo especificado.
