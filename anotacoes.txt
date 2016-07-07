@@ -1,4 +1,4 @@
-|---------------------------------------- LOGS: ----------------------------------------------|
+|------------------------------------------- LOGS --------------------------------------------|
 	git log -p
 		Mostra tudo que foi alterado em cada arquivo do commit.
 		Exibe tudo dos logs.
@@ -17,5 +17,24 @@
 
 	git log --since=2.days
 		Exibe todos os commmits do periodo de tempo especificado.
+
+|---------------------------------------------------------------------------------------------|
+|------------------------------------- VOLTANDO VERSÕES --------------------------------------|
+	git checkout hash_do_commit
+		Vai para versão especificada pelo Hash.
+	
+	git checkout master
+		Volta para ultima versão commitada/branch principal.
+
+	git reset HEAD~1
+		Volta 1 commit.
+		Pode se colocar o numero que quiser.
+
+	git reset HEAD~1 --soft
+		Volta X versões, porém deixa os arquivos das versões mais recentos prontos
+		para serem comittados. Pode-se tirar do estágio 2, para editar o arquivo.
+
+	git reset HEAD-1 --hard
+		Volta X versões, apagando de vez os arquivos das versões mais recentes.
 
 |---------------------------------------------------------------------------------------------|
