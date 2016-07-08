@@ -38,3 +38,9 @@
 		Volta X versões, apagando de vez os arquivos das versões mais recentes.
 
 |---------------------------------------------------------------------------------------------|
+|------------------------------------- CRIANDO BRANCHES --------------------------------------|
+	git checkout -b nome_do_branch
+		Cria um novo branch com o nome definido
+
+	git checkou master
+		Volta para branch principal
