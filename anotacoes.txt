@@ -47,3 +47,14 @@
 
 
 |---------------------------------------------------------------------------------------------|
+|---------------------------------------- MERGE/REBASE ---------------------------------------|
+	git merge nome_do_branch
+		Faz o merge do branch citado no comando, para o branch selecionado.
+		Cria um novo commit para juntar os commits de cada branch.
+
+	git rebase nome_do_branch.
+		Faz o merge do branch citado no comando, para o branch selecionado.
+		Reorganiza os commits em ordem, para trazendo para o principal, para que não
+		haja um terceiro commit.
+
+|---------------------------------------------------------------------------------------------|
