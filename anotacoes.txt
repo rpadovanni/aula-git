@@ -99,3 +99,16 @@
 	para finalizar o merge.
 
 |---------------------------------------------------------------------------------------------|
+|--------------------------------------------- BARE ------------------------------------------|
+	O git bare serve para criar um repositorio no localhost, para fazer todo o controle
+	como se estivesse mandando para o repositorio online.
+	
+	git init --bare
+		- Comando usado para inicializar a pasta como um repositorio local
+
+	git remote add local ssh://localhost/endereço_do_repositorio_local
+		- Registra o repositorio para ser utilizado com o comando "git push local"
+		para fazer push/pull e versionamento no repositorio local.
+		- O push é efetuado normalmente, porém com o nome "local" no lugar de "origin".
+
+|---------------------------------------------------------------------------------------------|
