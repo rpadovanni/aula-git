@@ -45,6 +45,9 @@
 	git checkou master
 		Volta para branch principal
 
+	git branch -a
+		- Lista todos os branches, incluindo do repositorio online.
+
 
 |---------------------------------------------------------------------------------------------|
 |---------------------------------------- MERGE/REBASE ---------------------------------------|
@@ -56,5 +59,19 @@
 		Faz o merge do branch citado no comando, para o branch selecionado.
 		Reorganiza os commits em ordem, para trazendo para o principal, para que não
 		haja um terceiro commit.
+
+|---------------------------------------------------------------------------------------------|
+|------------------------------------------- CLONING -----------------------------------------|
+	git clone endereço_git nome_do_diretorio_a_criar
+		- Copia do github o repositório do link, criando a pasta com o nome passado
+		como argumento.
+		- Não é obrigatório o nome da pasta, só que ele cria com o nome do repositório
+		online.
+
+	git checkout -b nome_branch origin/nome_do_branch
+		- Copia do github o branch especificado.
+
+	git pull
+		- Verifica se todos os arquivos foram baixados com sucesso do repositorio.
 
 |---------------------------------------------------------------------------------------------|
