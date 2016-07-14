@@ -91,3 +91,11 @@
 
 	git push origin branch_desejado --tags
 		- Sobre para o repositorio online todas as tags, como versões do software.
+
+|---------------------------------------------------------------------------------------------|
+|------------------------------------------ CONFLITOS ----------------------------------------|
+	Para resolução de conflitos no merge, deve-se editar o arquivo gerado pelo merge,
+	que vai conter as informações dos arquivos em conflito, salvar, dar um add e commit
+	para finalizar o merge.
+
+|---------------------------------------------------------------------------------------------|
