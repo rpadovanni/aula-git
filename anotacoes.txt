@@ -81,3 +81,13 @@
 	"git pull".
 
 |---------------------------------------------------------------------------------------------|
+|-------------------------------------------- TAGS -------------------------------------------|
+	Tags são marcadores que definem o versionamento do software (Ex.: 0.1.0)
+	git tag X.X.X
+		- Define, até o ultimo commit realizado, a versão do software.
+
+	git tag -l
+		- Lista todas as versões/tags.
+
+	git push origin branch_desejado --tags
+		- Sobre para o repositorio online todas as tags, como versões do software.
