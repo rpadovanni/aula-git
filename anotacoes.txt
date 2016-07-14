@@ -75,3 +75,9 @@
 		- Verifica se todos os arquivos foram baixados com sucesso do repositorio.
 
 |---------------------------------------------------------------------------------------------|
+|------------------------------------------ PUSH/PULL ----------------------------------------|
+	- Para criar utilizar o repositorio em varios diretorios(computadores) diferentes
+	é necessário sincronizar as alterações do repositorio com as do PC, com o comando
+	"git pull".
+
+|---------------------------------------------------------------------------------------------|
