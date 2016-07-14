@@ -112,3 +112,15 @@
 		- O push é efetuado normalmente, porém com o nome "local" no lugar de "origin".
 
 |---------------------------------------------------------------------------------------------|
+|--------------------------------------------- HOOK ------------------------------------------|
+	O git hook serve para facilitar o deploy do software, enviando, assim que o push
+	for realizado no repositorio local, os arquivos para a pasta onde o software/site
+	está sendo executado.
+	Para que isso aconteça, deve ser criado um arquivo chamado "post-receive" dentro
+	da pasta "hooks" do repositorio local, com o seguinte conteúdo(sem aspas):
+	"#!/bin/sh
+	GIT_WORK_TREE=/caminho_do_diretorio_de_transferencia git checkout -f"
+
+	Após criado o arquivo, deve ser alterada a permissão do arquivo, como o seguinte
+	comando(sem aspas):
+	"chmod +x post receive"
